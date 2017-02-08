@@ -1,0 +1,17 @@
+.hidden {
+    display: none;
+}
+
+.out-of-screen {
+    position: absolute;
+    left: -50000px;
+    top: 0;
+}
+
+.unselectable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
